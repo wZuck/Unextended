@@ -9,4 +9,18 @@ PCB/ISO/Project Logs for unextended_ISO/*
 PCB/ISO/Project Outputs for alps-cherry/*
 PCB/ANSI/Project Outputs for alps-cherry/*
 Cover/History/*
+__pycache__/
+*.pyc
+.venv/
+*.kicad_prl
+*.blend1
+.DS_Store
+hardware/*-routing-A2.*
+hardware/*-routing-A2-*.ses
+hardware/*-routing-final.*
+hardware/*-routing-proxy.*
+hardware/*-escape-seed.*
+hardware/*-routed-candidate.*
+reports/drc-escape-*.json
+~*.lck
 Plate/History/*

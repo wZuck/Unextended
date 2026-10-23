@@ -1,6 +1,8 @@
 
 # Unextended keyboard
 
+> Wireless NIZ development A2: [English](docs/direct-usb-A2.md) · [简体中文](docs/direct-usb-A2.zh-CN.md). ANSI 61 / BLE + USB; native nice!nano USB-C directly at the case opening, with a separate low-level carrier and revised internal V1 pocket. Not fabrication-ready. [Renders](docs/renders.md) · [Website source](website/README.md). Original ALPS project documentation follows.
+
 Welcome to the **Unextended Keyboard** project. A 60% keyboard that targets ALPS switches and specifically the keycaps from Apple Extended Keyboards.
 
 ## Disclaimer:

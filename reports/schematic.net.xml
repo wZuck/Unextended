@@ -1,0 +1,4318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/wzy/workspace/Unextended/hardware/UnextendedEC.kicad_sch</source>
+    <date>2026-10-24T00:58:53</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>UnextendedEC A2 - ENGINEERING DESIGN</title>
+        <company/>
+        <rev>A2 - NOT FOR FAB</rev>
+        <date>2026-10-24</date>
+        <source>UnextendedEC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="C1" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0a688e6-42f4-5976-98fd-4f6419bd458b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="C2" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95127982-4ca0-5db3-ad2c-78dec83457fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="C3" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77cfb22e-b733-595f-be3e-d0902d188647</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>220p_C0G</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="C4" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18479de3-da0d-5b3f-827e-2a8b5345ddbc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="C5" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85ee7270-3eb7-5959-a235-8403ebc79d8f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC1">
+      <value>Esc</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC1" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daaf0350-d191-5837-8639-d8273d71e24e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC2">
+      <value>1</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC2" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58955009-1697-58b8-a646-413c202ded9b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC3">
+      <value>2</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC3" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdf90300-4b33-5780-b297-f12b074e5330</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC4">
+      <value>3</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC4" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfefdaa8-1f07-5790-893c-078dfa711a39</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC5">
+      <value>4</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC5" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8c2616c-aaac-535b-9784-9cacc33c33c6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC6">
+      <value>5</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC6" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf9e58a5-5a5b-580f-8cfc-26b50a9f7ad1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC7">
+      <value>6</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC7" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc0549d5-1090-550b-8913-0efc2ccd4eff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC8">
+      <value>7</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC8" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae8fb610-3de6-5f8e-ab5e-f2f26888dec5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC9">
+      <value>8</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC9" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30511553-e7d9-567a-9aed-b99f6e21debd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC10">
+      <value>9</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC10" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5d488d7-308f-5b6f-a65c-7c02f5534f15</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC11">
+      <value>0</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC11" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>601a507a-3160-5faa-8319-bcf8cdaeea1e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC12">
+      <value>-</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC12" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ad7620c-935f-5a58-9330-45a2eb4a9185</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC13">
+      <value>=</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC13" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69debfa6-9639-5979-9d78-5274283963d3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC14">
+      <value>Backspace</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC14" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94229b15-1d07-557a-bed6-41eeb2465a8b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC15">
+      <value>Tab</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC15" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d414a115-f65a-576a-9fa2-3770c6fed22a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC16">
+      <value>Q</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC16" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f668c689-ee42-55c2-ad16-3a3ea2389ced</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC17">
+      <value>W</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC17" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7067b85-fb27-589e-83ec-c3d5052c52bf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC18">
+      <value>E</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC18" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>706a7164-9f40-53d8-8f0d-d4d489a8672b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC19">
+      <value>R</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC19" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>868fa396-5d8e-546a-9c98-8495c49111b4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC20">
+      <value>T</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC20" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a2df8d5-bd6a-5474-b564-d62e417703f5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC21">
+      <value>Y</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC21" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35dde542-f57c-51a3-8ec0-bc8bc807488b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC22">
+      <value>U</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC22" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97ac56b6-7618-5fba-af8e-868d92cc04e4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC23">
+      <value>I</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC23" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b99b3d29-acca-5af9-9203-402b7e3c7e48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC24">
+      <value>O</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC24" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27c33ef0-2eff-5cf8-ba82-668353adeaf9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC25">
+      <value>P</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC25" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcba8fa8-ee13-5c8c-a60e-6bdf2ccd8ad8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC26">
+      <value>[</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC26" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca31cf8f-826f-5c65-bc75-a2b38e48b8ab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC27">
+      <value>]</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC27" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2ecf0d5-0cc5-5aae-a382-020f79844895</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC28">
+      <value>\</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC28" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>695ed340-75ec-5e5d-9769-7cd07b3b4c73</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC29">
+      <value>Caps</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC29" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d11f3b7b-e6e1-5c6f-9c56-607fc50f6506</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC30">
+      <value>A</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC30" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3025c8fa-d607-5afc-aca4-65da3e41742e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC31">
+      <value>S</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC31" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0909f433-8f34-582a-be74-c846af8e8cc7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC32">
+      <value>D</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC32" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e85937b-da69-5876-92fd-54b8afc16b7c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC33">
+      <value>F</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC33" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ab7f9b0-d3f3-56b9-ad2f-494bda6f9202</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC34">
+      <value>G</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC34" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8cacb67-988c-5e66-bcbb-127e52d3b855</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC35">
+      <value>H</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC35" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9788ad15-d33d-5814-807a-3228671d67c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC36">
+      <value>J</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC36" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9103f03c-2372-5ee4-be1a-33915bf40f45</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC37">
+      <value>K</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC37" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>893e90d6-b007-5fec-ae7c-c985c1b161ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC38">
+      <value>L</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC38" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39760750-27ee-5e65-9164-910b7ad5a73e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC39">
+      <value>;</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC39" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce8eed0a-3e73-547e-b9eb-a9454ce4a34c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC40">
+      <value>'</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC40" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51034e31-757b-5a9a-8280-016cf3f70562</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC41">
+      <value>Enter</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC41" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cff1885-1afd-5d20-b495-f8d62e6c1f81</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC42">
+      <value>Shift</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC42" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ce0e1fe-62df-5672-ac02-d9c4369ddec4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC43">
+      <value>Z</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC43" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de55c5bb-4c10-5bbb-a186-a5f50cbd0aa5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC44">
+      <value>X</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC44" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd22e967-3349-5a22-823e-e8a6fdb18f0b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC45">
+      <value>C</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC45" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1638e2d-9bb1-5225-9548-a0ecd8d916dc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC46">
+      <value>V</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC46" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5196f866-8a2e-5e9b-8489-92caa5af6fbc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC47">
+      <value>B</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC47" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a361556b-03e9-5f98-aea4-37d4fe3e0947</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC48">
+      <value>N</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC48" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8b48594-3394-5491-b49e-4d1d5798215a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC49">
+      <value>M</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC49" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fbdbbb8-3e35-5fe8-92c6-2b35d176cef1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC50">
+      <value>,</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC50" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57b5d56b-f0a9-58d5-8bb4-cd6cc38cc61e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC51">
+      <value>.</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC51" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf887710-9bcc-595b-b2bf-6f184b7187c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC52">
+      <value>/</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC52" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4439723-778a-525d-b542-9e4e6b1f71f4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC53">
+      <value>RShift</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC53" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0637d910-cdcd-5aeb-a858-6ed34131a165</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC54">
+      <value>LCTRL</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC54" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e242991e-b5f4-5963-b995-32511c40e18e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC55">
+      <value>LGUI</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC55" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe42e38a-db5f-5a90-b2be-2f1cc9f095b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC56">
+      <value>LAlt</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC56" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25e20671-9edf-597a-9b66-82ebca3cdaa5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC57">
+      <value>Space</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC57" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23d93b2a-611d-5098-bccc-e71979fb6ace</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC58">
+      <value>RAlt</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC58" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5557803e-03b7-58ca-b8cf-37b1afa95498</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC59">
+      <value>Fn</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC59" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b5e1144-2c52-5f3b-9c50-e1524d3ff9d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC60">
+      <value>Menu</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC60" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7112832-5665-5c68-9a1a-4089bbb854d1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="EC61">
+      <value>RCTRL</value>
+      <footprint>UnextendedEC:ecs_pad_1U_no_ring</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:ecs_pad_1U_no_ring</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="EC61" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a813988-74e4-5b53-b974-413b7eaab019</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>JST_S2B-PH-K</value>
+      <footprint>UnextendedEC:Battery_PH2</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:Battery_PH2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="J1" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c397451-95c8-592f-98bd-f4e63e54ac71</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>FH12-24S-0.5SH</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="J2" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a06736d1-2942-5a35-84bd-e3ae2612bbff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="Q1" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8649f9eb-5848-5aa0-a2ae-0a09e9d5048f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R1" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a564c30b-3e21-5153-a3c7-3733f023f4c0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R2" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e65df86-f428-54b8-9f9f-0f0b08cf0bcd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R3" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3caaade5-6516-5683-910e-7ba79087d871</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R4" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4619611-d4c0-5c8d-a727-4772e943b602</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R5" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8988aef7-0493-5ebf-b794-c980a7905a88</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R10" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6918a71-ee53-5ea2-b3f9-20dafc08a3eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R11" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03aded31-1a1f-573d-86ae-8a1946e14ee4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R12" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>189c0893-24f3-5936-b8a2-3a2ec6e21db3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R13" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d22cd5f6-7d84-5fc1-837e-45b3080cd2be</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R14" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ebb0a03-b940-5629-93ff-4eee9a091318</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R15" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03f62da4-78bc-5995-b6ac-7642ea129cf1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R16" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>225bdc92-9dbe-5992-85f2-924740c16978</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R17" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89568f29-7063-5ff7-8d29-e619ac33ed1b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R18" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0eb35f9-562e-58e1-9331-0b56cec4646c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R19" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa94f22c-6df2-558a-a236-85ccbf02d5e9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R20" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37ccf273-2a83-55e3-899d-a590f3726297</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R21" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80696757-b211-5ba9-9bcd-1d4b3783951c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R22" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10bface7-7e4f-572b-954e-673def46f1b4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R23" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>815c92dc-4bec-52a8-b144-962cb67c86e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R24" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f78f404-6fb1-52ba-88dc-7bad79007c73</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R30">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R30" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0af3575e-4b6e-5f52-9ea3-9ecf208c6235</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R31" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3909b353-d40c-575b-8b8d-791493a3ddbc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R32" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35933892-9250-58b8-8d29-fec3bdababc0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R33" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>967dc0de-0fcf-59a2-9d9f-1b5fb77cfdc0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R34">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R34" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25a8888c-eec5-5f23-a5c4-c7cb03cd6d4c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R35">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R35" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fed7beca-a421-5ff6-a1f3-2364bc5c3a3f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R36" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3461d8e-8dbd-546e-93c9-547a43ec1b7f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R37">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="R37" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df0def32-16a1-5287-bdf1-e1e1728b9bf4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>Battery_switch_pigtail</value>
+      <footprint>UnextendedEC:SPST_PIGTAIL_2.54</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:SPST_PIGTAIL_2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="SW1" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c180e3b-629b-505f-9fe2-3e2bdcea7b6b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>Reset_NO</value>
+      <footprint>UnextendedEC:RESET_2.54_TH</footprint>
+      <fields>
+        <field name="Footprint">UnextendedEC:RESET_2.54_TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="SW2" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0ee7c43-da81-5507-a0b9-fb936846192e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>CD74HC4051M96</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="U2" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85cb245c-224a-5135-a9aa-74afd24fd547</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>CD74HC4051M96</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="U3" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>534a43e3-16a3-5aba-8a4f-b6b6cec92a58</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>OPA350UA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UnextendedEC" part="U4" description=""/>
+      <property name="Sheetname" value="UnextendedEC"/>
+      <property name="Sheetfile" value="UnextendedEC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5d4097a-d7f5-5f32-a6fe-aa2029de4b31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="UnextendedEC" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="AFE_3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">220p_C0G</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SENSE" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">1u</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC1">
+      <fields>
+        <field name="Reference">EC1</field>
+        <field name="Value">Esc</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC10">
+      <fields>
+        <field name="Reference">EC10</field>
+        <field name="Value">9</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC11">
+      <fields>
+        <field name="Reference">EC11</field>
+        <field name="Value">0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC12">
+      <fields>
+        <field name="Reference">EC12</field>
+        <field name="Value">-</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC13">
+      <fields>
+        <field name="Reference">EC13</field>
+        <field name="Value">=</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC14">
+      <fields>
+        <field name="Reference">EC14</field>
+        <field name="Value">Backspace</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC15">
+      <fields>
+        <field name="Reference">EC15</field>
+        <field name="Value">Tab</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC16">
+      <fields>
+        <field name="Reference">EC16</field>
+        <field name="Value">Q</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC17">
+      <fields>
+        <field name="Reference">EC17</field>
+        <field name="Value">W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC18">
+      <fields>
+        <field name="Reference">EC18</field>
+        <field name="Value">E</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC19">
+      <fields>
+        <field name="Reference">EC19</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC2">
+      <fields>
+        <field name="Reference">EC2</field>
+        <field name="Value">1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC20">
+      <fields>
+        <field name="Reference">EC20</field>
+        <field name="Value">T</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC21">
+      <fields>
+        <field name="Reference">EC21</field>
+        <field name="Value">Y</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC22">
+      <fields>
+        <field name="Reference">EC22</field>
+        <field name="Value">U</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC23">
+      <fields>
+        <field name="Reference">EC23</field>
+        <field name="Value">I</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC24">
+      <fields>
+        <field name="Reference">EC24</field>
+        <field name="Value">O</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC25">
+      <fields>
+        <field name="Reference">EC25</field>
+        <field name="Value">P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC26">
+      <fields>
+        <field name="Reference">EC26</field>
+        <field name="Value">[</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC27">
+      <fields>
+        <field name="Reference">EC27</field>
+        <field name="Value">]</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC28">
+      <fields>
+        <field name="Reference">EC28</field>
+        <field name="Value">\</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC29">
+      <fields>
+        <field name="Reference">EC29</field>
+        <field name="Value">Caps</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC3">
+      <fields>
+        <field name="Reference">EC3</field>
+        <field name="Value">2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC30">
+      <fields>
+        <field name="Reference">EC30</field>
+        <field name="Value">A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC31">
+      <fields>
+        <field name="Reference">EC31</field>
+        <field name="Value">S</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC32">
+      <fields>
+        <field name="Reference">EC32</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC33">
+      <fields>
+        <field name="Reference">EC33</field>
+        <field name="Value">F</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC34">
+      <fields>
+        <field name="Reference">EC34</field>
+        <field name="Value">G</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC35">
+      <fields>
+        <field name="Reference">EC35</field>
+        <field name="Value">H</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC36">
+      <fields>
+        <field name="Reference">EC36</field>
+        <field name="Value">J</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC37">
+      <fields>
+        <field name="Reference">EC37</field>
+        <field name="Value">K</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC38">
+      <fields>
+        <field name="Reference">EC38</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC39">
+      <fields>
+        <field name="Reference">EC39</field>
+        <field name="Value">;</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC4">
+      <fields>
+        <field name="Reference">EC4</field>
+        <field name="Value">3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC40">
+      <fields>
+        <field name="Reference">EC40</field>
+        <field name="Value">'</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC41">
+      <fields>
+        <field name="Reference">EC41</field>
+        <field name="Value">Enter</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC42">
+      <fields>
+        <field name="Reference">EC42</field>
+        <field name="Value">Shift</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC43">
+      <fields>
+        <field name="Reference">EC43</field>
+        <field name="Value">Z</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC44">
+      <fields>
+        <field name="Reference">EC44</field>
+        <field name="Value">X</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC45">
+      <fields>
+        <field name="Reference">EC45</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC46">
+      <fields>
+        <field name="Reference">EC46</field>
+        <field name="Value">V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC47">
+      <fields>
+        <field name="Reference">EC47</field>
+        <field name="Value">B</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC48">
+      <fields>
+        <field name="Reference">EC48</field>
+        <field name="Value">N</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC49">
+      <fields>
+        <field name="Reference">EC49</field>
+        <field name="Value">M</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC5">
+      <fields>
+        <field name="Reference">EC5</field>
+        <field name="Value">4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC50">
+      <fields>
+        <field name="Reference">EC50</field>
+        <field name="Value">,</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC51">
+      <fields>
+        <field name="Reference">EC51</field>
+        <field name="Value">.</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC52">
+      <fields>
+        <field name="Reference">EC52</field>
+        <field name="Value">/</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC53">
+      <fields>
+        <field name="Reference">EC53</field>
+        <field name="Value">RShift</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC54">
+      <fields>
+        <field name="Reference">EC54</field>
+        <field name="Value">LCTRL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC55">
+      <fields>
+        <field name="Reference">EC55</field>
+        <field name="Value">LGUI</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC56">
+      <fields>
+        <field name="Reference">EC56</field>
+        <field name="Value">LAlt</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC57">
+      <fields>
+        <field name="Reference">EC57</field>
+        <field name="Value">Space</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC58">
+      <fields>
+        <field name="Reference">EC58</field>
+        <field name="Value">RAlt</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC59">
+      <fields>
+        <field name="Reference">EC59</field>
+        <field name="Value">Fn</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC6">
+      <fields>
+        <field name="Reference">EC6</field>
+        <field name="Value">5</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC60">
+      <fields>
+        <field name="Reference">EC60</field>
+        <field name="Value">Menu</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC61">
+      <fields>
+        <field name="Reference">EC61</field>
+        <field name="Value">RCTRL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC7">
+      <fields>
+        <field name="Reference">EC7</field>
+        <field name="Value">6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC8">
+      <fields>
+        <field name="Reference">EC8</field>
+        <field name="Value">7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="EC9">
+      <fields>
+        <field name="Reference">EC9</field>
+        <field name="Value">8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRIVE" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+        <pin num="3" name="GUARD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">JST_S2B-PH-K</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT_RAW" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">FH12-24S-0.5SH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_out"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VCC" type="power_out"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="ROW_DRV0" type="passive"/>
+        <pin num="6" name="ROW_DRV1" type="passive"/>
+        <pin num="7" name="ROW_DRV2" type="passive"/>
+        <pin num="8" name="ROW_DRV3" type="passive"/>
+        <pin num="9" name="ROW_DRV4" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="MUX_A" type="passive"/>
+        <pin num="12" name="MUX_B" type="passive"/>
+        <pin num="13" name="MUX_C" type="passive"/>
+        <pin num="14" name="MUX0_INH" type="passive"/>
+        <pin num="15" name="MUX1_INH" type="passive"/>
+        <pin num="16" name="GND" type="passive"/>
+        <pin num="17" name="DRAIN" type="passive"/>
+        <pin num="18" name="AFE_ON_N" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="ADC" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="BAT_SW" type="passive"/>
+        <pin num="23" name="RESET" type="passive"/>
+        <pin num="24" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="Q1">
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ROW_DRV0" type="passive"/>
+        <pin num="2" name="ROW0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL0" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL2" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R13">
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R14">
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL4" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R15">
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL5" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R16">
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL6" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R17">
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL7" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R18">
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL8" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R19">
+      <fields>
+        <field name="Reference">R19</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL9" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ROW_DRV1" type="passive"/>
+        <pin num="2" name="ROW1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R20">
+      <fields>
+        <field name="Reference">R20</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL10" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R21">
+      <fields>
+        <field name="Reference">R21</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL11" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R22">
+      <fields>
+        <field name="Reference">R22</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL12" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R23">
+      <fields>
+        <field name="Reference">R23</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL13" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R24">
+      <fields>
+        <field name="Reference">R24</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COL14" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ROW_DRV2" type="passive"/>
+        <pin num="2" name="ROW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R30">
+      <fields>
+        <field name="Reference">R30</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="AMP_OUT" type="passive"/>
+        <pin num="2" name="FB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R31">
+      <fields>
+        <field name="Reference">R31</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R32">
+      <fields>
+        <field name="Reference">R32</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DRAIN" type="passive"/>
+        <pin num="2" name="SENSE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R33">
+      <fields>
+        <field name="Reference">R33</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MUX0_INH" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R34">
+      <fields>
+        <field name="Reference">R34</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MUX1_INH" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R35">
+      <fields>
+        <field name="Reference">R35</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="AFE_GATE" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R36">
+      <fields>
+        <field name="Reference">R36</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="AFE_ON_N" type="passive"/>
+        <pin num="2" name="AFE_GATE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R37">
+      <fields>
+        <field name="Reference">R37</field>
+        <field name="Value">47</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="AMP_OUT" type="passive"/>
+        <pin num="2" name="ADC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ROW_DRV3" type="passive"/>
+        <pin num="2" name="ROW3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ROW_DRV4" type="passive"/>
+        <pin num="2" name="ROW4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="SW1">
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">Battery_switch_pigtail</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT_RAW" type="passive"/>
+        <pin num="2" name="BAT_SW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="SW2">
+      <fields>
+        <field name="Reference">SW2</field>
+        <field name="Value">Reset_NO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">CD74HC4051M96</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="X4" type="passive"/>
+        <pin num="2" name="X6" type="passive"/>
+        <pin num="3" name="COM" type="passive"/>
+        <pin num="4" name="X7" type="passive"/>
+        <pin num="5" name="X5" type="passive"/>
+        <pin num="6" name="INH" type="input"/>
+        <pin num="7" name="VEE" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="C" type="input"/>
+        <pin num="10" name="B" type="input"/>
+        <pin num="11" name="A" type="input"/>
+        <pin num="12" name="X3" type="passive"/>
+        <pin num="13" name="X0" type="passive"/>
+        <pin num="14" name="X1" type="passive"/>
+        <pin num="15" name="X2" type="passive"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="U3">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">CD74HC4051M96</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="X4" type="passive"/>
+        <pin num="2" name="X6" type="passive"/>
+        <pin num="3" name="COM" type="passive"/>
+        <pin num="4" name="X7" type="passive"/>
+        <pin num="5" name="X5" type="passive"/>
+        <pin num="6" name="INH" type="input"/>
+        <pin num="7" name="VEE" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="C" type="input"/>
+        <pin num="10" name="B" type="input"/>
+        <pin num="11" name="A" type="input"/>
+        <pin num="12" name="X3" type="passive"/>
+        <pin num="13" name="X0" type="passive"/>
+        <pin num="14" name="X1" type="passive"/>
+        <pin num="15" name="X2" type="passive"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="UnextendedEC" part="U4">
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">OPA350UA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="IN-" type="input"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="OUT" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="UnextendedEC">
+      <uri>${KIPRJMOD}/UnextendedEC.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="ADC" class="Default">
+      <node ref="J2" pin="20" pinfunction="ADC_20" pintype="passive"/>
+      <node ref="R37" pin="2" pinfunction="ADC_2" pintype="passive"/>
+    </net>
+    <net code="2" name="AFE_3V3" class="Default">
+      <node ref="C3" pin="1" pinfunction="AFE_3V3_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="power_out"/>
+      <node ref="U4" pin="7" pinfunction="V+_7" pintype="power_in"/>
+    </net>
+    <net code="3" name="AFE_GATE" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="passive"/>
+      <node ref="R35" pin="1" pinfunction="AFE_GATE_1" pintype="passive"/>
+      <node ref="R36" pin="2" pinfunction="AFE_GATE_2" pintype="passive"/>
+    </net>
+    <net code="4" name="AFE_ON_N" class="Default">
+      <node ref="J2" pin="18" pinfunction="AFE_ON_N_18" pintype="passive"/>
+      <node ref="R36" pin="1" pinfunction="AFE_ON_N_1" pintype="passive"/>
+    </net>
+    <net code="5" name="AMP_OUT" class="Default">
+      <node ref="R30" pin="1" pinfunction="AMP_OUT_1" pintype="passive"/>
+      <node ref="R37" pin="1" pinfunction="AMP_OUT_1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="OUT_6" pintype="output"/>
+    </net>
+    <net code="6" name="BAT_RAW" class="Default">
+      <node ref="J1" pin="1" pinfunction="BAT_RAW_1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="BAT_RAW_1" pintype="passive"/>
+    </net>
+    <net code="7" name="BAT_SW" class="Default">
+      <node ref="J2" pin="22" pinfunction="BAT_SW_22" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="BAT_SW_2" pintype="passive"/>
+    </net>
+    <net code="8" name="COL0" class="Default">
+      <node ref="EC1" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC15" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC29" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC54" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="COL0_1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="X0_13" pintype="passive"/>
+    </net>
+    <net code="9" name="COL1" class="Default">
+      <node ref="EC2" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC42" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC55" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="COL1_1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="X1_14" pintype="passive"/>
+    </net>
+    <net code="10" name="COL2" class="Default">
+      <node ref="EC16" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC3" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC30" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC43" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="COL2_1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="X2_15" pintype="passive"/>
+    </net>
+    <net code="11" name="COL3" class="Default">
+      <node ref="EC17" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC31" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC4" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC44" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC56" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="COL3_1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="X3_12" pintype="passive"/>
+    </net>
+    <net code="12" name="COL4" class="Default">
+      <node ref="EC18" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC32" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC45" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC5" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="COL4_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="X4_1" pintype="passive"/>
+    </net>
+    <net code="13" name="COL5" class="Default">
+      <node ref="EC19" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC33" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC46" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC6" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="COL5_1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="X5_5" pintype="passive"/>
+    </net>
+    <net code="14" name="COL6" class="Default">
+      <node ref="EC20" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC34" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC47" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC57" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC7" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="COL6_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="X6_2" pintype="passive"/>
+    </net>
+    <net code="15" name="COL7" class="Default">
+      <node ref="EC21" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC35" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC48" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC8" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="COL7_1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="X7_4" pintype="passive"/>
+    </net>
+    <net code="16" name="COL8" class="Default">
+      <node ref="EC22" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC36" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC49" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC9" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="COL8_1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="X0_13" pintype="passive"/>
+    </net>
+    <net code="17" name="COL9" class="Default">
+      <node ref="EC10" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC23" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC37" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC50" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="COL9_1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="X1_14" pintype="passive"/>
+    </net>
+    <net code="18" name="COL10" class="Default">
+      <node ref="EC11" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC24" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC38" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC51" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC58" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="COL10_1" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="X2_15" pintype="passive"/>
+    </net>
+    <net code="19" name="COL11" class="Default">
+      <node ref="EC12" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC25" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC39" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC52" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC59" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="COL11_1" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="X3_12" pintype="passive"/>
+    </net>
+    <net code="20" name="COL12" class="Default">
+      <node ref="EC13" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC26" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC40" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R22" pin="1" pinfunction="COL12_1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="X4_1" pintype="passive"/>
+    </net>
+    <net code="21" name="COL13" class="Default">
+      <node ref="EC27" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC41" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC53" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC60" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R23" pin="1" pinfunction="COL13_1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="X5_5" pintype="passive"/>
+    </net>
+    <net code="22" name="COL14" class="Default">
+      <node ref="EC14" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC28" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="EC61" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="R24" pin="1" pinfunction="COL14_1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="X6_2" pintype="passive"/>
+    </net>
+    <net code="23" name="DRAIN" class="Default">
+      <node ref="J2" pin="17" pinfunction="DRAIN_17" pintype="passive"/>
+      <node ref="R32" pin="1" pinfunction="DRAIN_1" pintype="passive"/>
+    </net>
+    <net code="24" name="FB" class="Default">
+      <node ref="R30" pin="2" pinfunction="FB_2" pintype="passive"/>
+      <node ref="R31" pin="1" pinfunction="FB_1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="IN-_2" pintype="input"/>
+    </net>
+    <net code="25" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="EC1" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC10" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC11" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC12" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC13" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC14" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC15" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC16" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC17" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC18" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC19" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC2" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC20" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC21" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC22" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC23" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC24" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC25" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC26" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC27" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC28" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC29" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC3" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC30" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC31" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC32" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC33" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC34" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC35" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC36" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC37" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC38" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC39" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC4" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC40" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC41" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC42" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC43" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC44" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC45" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC46" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC47" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC48" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC49" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC5" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC50" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC51" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC52" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC53" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC54" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC55" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC56" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC57" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC58" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC59" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC6" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC60" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC61" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC7" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC8" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="EC9" pin="3" pinfunction="GUARD_3" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="GND_1" pintype="power_out"/>
+      <node ref="J2" pin="10" pinfunction="GND_10" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="GND_16" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="GND_19" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="GND_21" pintype="passive"/>
+      <node ref="J2" pin="24" pinfunction="GND_24" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R31" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="VEE_7" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="X7_4" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="VEE_7" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="V-_4" pintype="power_in"/>
+    </net>
+    <net code="26" name="MUX0_INH" class="Default">
+      <node ref="J2" pin="14" pinfunction="MUX0_INH_14" pintype="passive"/>
+      <node ref="R33" pin="1" pinfunction="MUX0_INH_1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="INH_6" pintype="input"/>
+    </net>
+    <net code="27" name="MUX1_INH" class="Default">
+      <node ref="J2" pin="15" pinfunction="MUX1_INH_15" pintype="passive"/>
+      <node ref="R34" pin="1" pinfunction="MUX1_INH_1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="INH_6" pintype="input"/>
+    </net>
+    <net code="28" name="MUX_A" class="Default">
+      <node ref="J2" pin="11" pinfunction="MUX_A_11" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="A_11" pintype="input"/>
+      <node ref="U3" pin="11" pinfunction="A_11" pintype="input"/>
+    </net>
+    <net code="29" name="MUX_B" class="Default">
+      <node ref="J2" pin="12" pinfunction="MUX_B_12" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="B_10" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="B_10" pintype="input"/>
+    </net>
+    <net code="30" name="MUX_C" class="Default">
+      <node ref="J2" pin="13" pinfunction="MUX_C_13" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="C_9" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="C_9" pintype="input"/>
+    </net>
+    <net code="31" name="RESET" class="Default">
+      <node ref="J2" pin="23" pinfunction="RESET_23" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="RESET_1" pintype="passive"/>
+    </net>
+    <net code="32" name="ROW0" class="Default">
+      <node ref="EC1" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC10" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC11" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC12" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC13" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC14" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC2" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC3" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC4" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC5" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC6" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC7" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC8" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC9" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="ROW0_2" pintype="passive"/>
+    </net>
+    <net code="33" name="ROW1" class="Default">
+      <node ref="EC15" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC16" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC17" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC18" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC19" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC20" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC21" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC22" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC23" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC24" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC25" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC26" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC27" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC28" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="ROW1_2" pintype="passive"/>
+    </net>
+    <net code="34" name="ROW2" class="Default">
+      <node ref="EC29" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC30" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC31" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC32" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC33" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC34" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC35" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC36" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC37" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC38" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC39" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC40" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC41" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="ROW2_2" pintype="passive"/>
+    </net>
+    <net code="35" name="ROW3" class="Default">
+      <node ref="EC42" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC43" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC44" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC45" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC46" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC47" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC48" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC49" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC50" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC51" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC52" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC53" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="ROW3_2" pintype="passive"/>
+    </net>
+    <net code="36" name="ROW4" class="Default">
+      <node ref="EC54" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC55" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC56" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC57" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC58" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC59" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC60" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="EC61" pin="1" pinfunction="DRIVE_1" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="ROW4_2" pintype="passive"/>
+    </net>
+    <net code="37" name="ROW_DRV0" class="Default">
+      <node ref="J2" pin="5" pinfunction="ROW_DRV0_5" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="ROW_DRV0_1" pintype="passive"/>
+    </net>
+    <net code="38" name="ROW_DRV1" class="Default">
+      <node ref="J2" pin="6" pinfunction="ROW_DRV1_6" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="ROW_DRV1_1" pintype="passive"/>
+    </net>
+    <net code="39" name="ROW_DRV2" class="Default">
+      <node ref="J2" pin="7" pinfunction="ROW_DRV2_7" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="ROW_DRV2_1" pintype="passive"/>
+    </net>
+    <net code="40" name="ROW_DRV3" class="Default">
+      <node ref="J2" pin="8" pinfunction="ROW_DRV3_8" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="ROW_DRV3_1" pintype="passive"/>
+    </net>
+    <net code="41" name="ROW_DRV4" class="Default">
+      <node ref="J2" pin="9" pinfunction="ROW_DRV4_9" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="ROW_DRV4_1" pintype="passive"/>
+    </net>
+    <net code="42" name="SENSE" class="Default">
+      <node ref="C4" pin="1" pinfunction="SENSE_1" pintype="passive"/>
+      <node ref="R32" pin="2" pinfunction="SENSE_2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="COM_3" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="COM_3" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="IN+_3" pintype="input"/>
+    </net>
+    <net code="43" name="VCC" class="Default">
+      <node ref="C1" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="VCC_1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="VCC_3" pintype="power_out"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R33" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="R34" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="R35" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+      <node ref="U3" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+    </net>
+    <net code="44" name="unconnected-(U4-NC-Pad1)" class="Default">
+      <node ref="U4" pin="1" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U4-NC-Pad5)" class="Default">
+      <node ref="U4" pin="5" pinfunction="NC_5" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U4-NC-Pad8)" class="Default">
+      <node ref="U4" pin="8" pinfunction="NC_8" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

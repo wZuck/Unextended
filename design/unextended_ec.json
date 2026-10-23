@@ -1,0 +1,386 @@
+{
+  "name": "UnextendedEC",
+  "revision": "A2-direct-usb-development",
+  "date": "2026-10-24",
+  "status": "DEVELOPMENT; native DRC and physical qualification required; not fabrication ready",
+  "units": "mm",
+  "pitch": 19.05,
+  "pcb": {
+    "width": 285.0,
+    "height": 94.6,
+    "thickness": 1.6,
+    "corner_radius": 2.0,
+    "first_center": [
+      9.15,
+      9.2
+    ],
+    "copper_layers": 4,
+    "inner_electrode_keepout_radius": 6.0
+  },
+  "plate": {
+    "thickness": 1.6,
+    "cutout": 14.0,
+    "cutout_radius": 0.5,
+    "pcb_top_to_plate_bottom": 6.0,
+    "custom_case_border": 5.0,
+    "spacing_status": "candidate; must measure actual NIZ housing and dome preload"
+  },
+  "battery": {
+    "capacity_design_mah": 750,
+    "max_envelope": [
+      37,
+      59,
+      3
+    ],
+    "chemistry": "protected 1S LiPo; verify V1 pocket and cable bend before procurement"
+  },
+  "module": {
+    "type": "nice!nano v2",
+    "mount": "dedicated low-level USB-bay carrier, not on sensing PCB",
+    "carrier_size": [24, 52, 0.8],
+    "footprint_center": [12, 18],
+    "pcb_rotation_deg": 270,
+    "antenna_keepout": [6, 26, 18, 44],
+    "case_material": "non-metallized polycarbonate; aluminum variant not qualified",
+    "usb_connection": "external cable directly into original nice!nano USB-C; no USB extension or C3",
+    "case_usb_mouth_center": [0, 50.442, 6.9545],
+    "carrier_to_case": {"x_offset": -11.873, "y_origin": 49.138, "pcb_top_z": 4.9545},
+    "module_total_thickness": 3.2,
+    "module_pcb_midplane_z": 6.9545,
+    "geometry_status": "footprint and manufacturer thickness envelope; actual socket offset must be measured",
+    "main_interconnect_center": [142.5, 18.7],
+    "ffc": {"positions": 24, "pitch": 0.5, "candidate_length_mm": 50, "signal_type": "GPIO, power and buffered ADC only; no SENSE, USB or VBUS"}
+  },
+  "rows": [
+    {
+      "y": 0,
+      "keys": [
+        [
+          0,
+          1,
+          "Esc"
+        ],
+        [
+          1,
+          1,
+          "1"
+        ],
+        [
+          2,
+          1,
+          "2"
+        ],
+        [
+          3,
+          1,
+          "3"
+        ],
+        [
+          4,
+          1,
+          "4"
+        ],
+        [
+          5,
+          1,
+          "5"
+        ],
+        [
+          6,
+          1,
+          "6"
+        ],
+        [
+          7,
+          1,
+          "7"
+        ],
+        [
+          8,
+          1,
+          "8"
+        ],
+        [
+          9,
+          1,
+          "9"
+        ],
+        [
+          10,
+          1,
+          "0"
+        ],
+        [
+          11,
+          1,
+          "-"
+        ],
+        [
+          12,
+          1,
+          "="
+        ],
+        [
+          13,
+          2,
+          "Backspace"
+        ]
+      ]
+    },
+    {
+      "y": 1,
+      "keys": [
+        [
+          0,
+          1.5,
+          "Tab"
+        ],
+        [
+          1.5,
+          1,
+          "Q"
+        ],
+        [
+          2.5,
+          1,
+          "W"
+        ],
+        [
+          3.5,
+          1,
+          "E"
+        ],
+        [
+          4.5,
+          1,
+          "R"
+        ],
+        [
+          5.5,
+          1,
+          "T"
+        ],
+        [
+          6.5,
+          1,
+          "Y"
+        ],
+        [
+          7.5,
+          1,
+          "U"
+        ],
+        [
+          8.5,
+          1,
+          "I"
+        ],
+        [
+          9.5,
+          1,
+          "O"
+        ],
+        [
+          10.5,
+          1,
+          "P"
+        ],
+        [
+          11.5,
+          1,
+          "["
+        ],
+        [
+          12.5,
+          1,
+          "]"
+        ],
+        [
+          13.5,
+          1.5,
+          "\\"
+        ]
+      ]
+    },
+    {
+      "y": 2,
+      "keys": [
+        [
+          0,
+          1.75,
+          "Caps"
+        ],
+        [
+          1.75,
+          1,
+          "A"
+        ],
+        [
+          2.75,
+          1,
+          "S"
+        ],
+        [
+          3.75,
+          1,
+          "D"
+        ],
+        [
+          4.75,
+          1,
+          "F"
+        ],
+        [
+          5.75,
+          1,
+          "G"
+        ],
+        [
+          6.75,
+          1,
+          "H"
+        ],
+        [
+          7.75,
+          1,
+          "J"
+        ],
+        [
+          8.75,
+          1,
+          "K"
+        ],
+        [
+          9.75,
+          1,
+          "L"
+        ],
+        [
+          10.75,
+          1,
+          ";"
+        ],
+        [
+          11.75,
+          1,
+          "'"
+        ],
+        [
+          12.75,
+          2.25,
+          "Enter"
+        ]
+      ]
+    },
+    {
+      "y": 3,
+      "keys": [
+        [
+          0,
+          2.25,
+          "Shift"
+        ],
+        [
+          2.25,
+          1,
+          "Z"
+        ],
+        [
+          3.25,
+          1,
+          "X"
+        ],
+        [
+          4.25,
+          1,
+          "C"
+        ],
+        [
+          5.25,
+          1,
+          "V"
+        ],
+        [
+          6.25,
+          1,
+          "B"
+        ],
+        [
+          7.25,
+          1,
+          "N"
+        ],
+        [
+          8.25,
+          1,
+          "M"
+        ],
+        [
+          9.25,
+          1,
+          ","
+        ],
+        [
+          10.25,
+          1,
+          "."
+        ],
+        [
+          11.25,
+          1,
+          "/"
+        ],
+        [
+          12.25,
+          2.75,
+          "RShift"
+        ]
+      ]
+    },
+    {
+      "y": 4,
+      "keys": [
+        [
+          0,
+          1.25,
+          "LCTRL"
+        ],
+        [
+          1.25,
+          1.25,
+          "LGUI"
+        ],
+        [
+          2.5,
+          1.25,
+          "LAlt"
+        ],
+        [
+          3.75,
+          6.25,
+          "Space"
+        ],
+        [
+          10.0,
+          1.25,
+          "RAlt"
+        ],
+        [
+          11.25,
+          1.25,
+          "Fn"
+        ],
+        [
+          12.5,
+          1.25,
+          "Menu"
+        ],
+        [
+          13.75,
+          1.25,
+          "RCTRL"
+        ]
+      ]
+    }
+  ]
+}

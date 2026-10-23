@@ -1,0 +1,29 @@
+{
+  "status": "CANDIDATE; housing latch, stabs, preload and V1 fit require actual checks",
+  "clamp_holes": 26,
+  "keys": 61,
+  "plate_bottom_above_pcb_top_mm": 6.0,
+  "niz-ansi-plate": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 22473.556124424358
+  },
+  "niz-fit-coupon": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 3267.528281798667
+  },
+  "upstream_case": {
+    "valid": true,
+    "solids": 1,
+    "bounds_mm": [
+      -151.35000010000002,
+      -59.00000010000002,
+      0.009999899999910735,
+      150.95000022069974,
+      56.000000100000015,
+      38.153438880623
+    ],
+    "assembly_alignment_verified": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "key_count": 61,
+  "matrix_masks": [
+    "0x2000",
+    "0x2",
+    "0x4002",
+    "0x5001",
+    "0x13b4"
+  ],
+  "firmware_transform_matches": true,
+  "architecture": "Low USB-bay carrier; native nice!nano USB-C directly external",
+  "j2_pin_parity": true,
+  "adc_ground_guards": [
+    19,
+    21
+  ],
+  "high_impedance_sense_leaves_mainboard": false,
+  "usb_extension": false,
+  "module_on_sensing_pcb": false,
+  "boards": {
+    "UnextendedEC": {
+      "components": 102,
+      "tracks": 1855,
+      "schematic_pcb_net_parity": true,
+      "copper_layers": 4
+    },
+    "UnextendedEC-controller": {
+      "components": 3,
+      "tracks": 281,
+      "schematic_pcb_net_parity": true,
+      "copper_layers": 2
+    }
+  },
+  "fabrication_ready": false,
+  "reason": "Physical EC/noise, RF, charging, retention and final sensing-stack assembly untested; no fabrication release"
+}

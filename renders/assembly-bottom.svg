@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 520">
+<rect width="1140" height="520" fill="#f5f5ed"/>
+<style>text{font-family:monospace;fill:#22392b} .label{font-size:9px} .key{fill:none;stroke:#c7cfc1;stroke-width:.5}</style>
+<text x="24" y="28" font-size="18">UNEXTENDED EC / A2 — SENSING PCB BOTTOM VIEW</text>
+<text x="24" y="48" font-size="11">MIRRORED component centers · UNROUTED · not a pad/orientation or fabrication drawing</text>
+<rect x="30.00" y="70.00" width="1077.30" height="357.59" fill="#e0e8d7" stroke="#66745f"/>
+<circle class="key" cx="1072.71" cy="104.78" r="22.7"/>
+<circle class="key" cx="1000.70" cy="104.78" r="22.7"/>
+<circle class="key" cx="928.69" cy="104.78" r="22.7"/>
+<circle class="key" cx="856.69" cy="104.78" r="22.7"/>
+<circle class="key" cx="784.68" cy="104.78" r="22.7"/>
+<circle class="key" cx="712.67" cy="104.78" r="22.7"/>
+<circle class="key" cx="640.66" cy="104.78" r="22.7"/>
+<circle class="key" cx="568.65" cy="104.78" r="22.7"/>
+<circle class="key" cx="496.64" cy="104.78" r="22.7"/>
+<circle class="key" cx="424.63" cy="104.78" r="22.7"/>
+<circle class="key" cx="352.62" cy="104.78" r="22.7"/>
+<circle class="key" cx="280.61" cy="104.78" r="22.7"/>
+<circle class="key" cx="208.60" cy="104.78" r="22.7"/>
+<circle class="key" cx="100.59" cy="104.78" r="22.7"/>
+<circle class="key" cx="1054.71" cy="176.78" r="22.7"/>
+<circle class="key" cx="964.70" cy="176.78" r="22.7"/>
+<circle class="key" cx="892.69" cy="176.78" r="22.7"/>
+<circle class="key" cx="820.68" cy="176.78" r="22.7"/>
+<circle class="key" cx="748.67" cy="176.78" r="22.7"/>
+<circle class="key" cx="676.66" cy="176.78" r="22.7"/>
+<circle class="key" cx="604.65" cy="176.78" r="22.7"/>
+<circle class="key" cx="532.65" cy="176.78" r="22.7"/>
+<circle class="key" cx="460.64" cy="176.78" r="22.7"/>
+<circle class="key" cx="388.63" cy="176.78" r="22.7"/>
+<circle class="key" cx="316.62" cy="176.78" r="22.7"/>
+<circle class="key" cx="244.61" cy="176.78" r="22.7"/>
+<circle class="key" cx="172.60" cy="176.78" r="22.7"/>
+<circle class="key" cx="82.59" cy="176.78" r="22.7"/>
+<circle class="key" cx="1045.71" cy="248.79" r="22.7"/>
+<circle class="key" cx="946.70" cy="248.79" r="22.7"/>
+<circle class="key" cx="874.69" cy="248.79" r="22.7"/>
+<circle class="key" cx="802.68" cy="248.79" r="22.7"/>
+<circle class="key" cx="730.67" cy="248.79" r="22.7"/>
+<circle class="key" cx="658.66" cy="248.79" r="22.7"/>
+<circle class="key" cx="586.65" cy="248.79" r="22.7"/>
+<circle class="key" cx="514.64" cy="248.79" r="22.7"/>
+<circle class="key" cx="442.63" cy="248.79" r="22.7"/>
+<circle class="key" cx="370.63" cy="248.79" r="22.7"/>
+<circle class="key" cx="298.62" cy="248.79" r="22.7"/>
+<circle class="key" cx="226.61" cy="248.79" r="22.7"/>
+<circle class="key" cx="109.59" cy="248.79" r="22.7"/>
+<circle class="key" cx="1027.71" cy="320.80" r="22.7"/>
+<circle class="key" cx="910.69" cy="320.80" r="22.7"/>
+<circle class="key" cx="838.68" cy="320.80" r="22.7"/>
+<circle class="key" cx="766.67" cy="320.80" r="22.7"/>
+<circle class="key" cx="694.67" cy="320.80" r="22.7"/>
+<circle class="key" cx="622.66" cy="320.80" r="22.7"/>
+<circle class="key" cx="550.65" cy="320.80" r="22.7"/>
+<circle class="key" cx="478.64" cy="320.80" r="22.7"/>
+<circle class="key" cx="406.63" cy="320.80" r="22.7"/>
+<circle class="key" cx="334.62" cy="320.80" r="22.7"/>
+<circle class="key" cx="262.61" cy="320.80" r="22.7"/>
+<circle class="key" cx="127.59" cy="320.80" r="22.7"/>
+<circle class="key" cx="1063.71" cy="392.81" r="22.7"/>
+<circle class="key" cx="973.70" cy="392.81" r="22.7"/>
+<circle class="key" cx="883.69" cy="392.81" r="22.7"/>
+<circle class="key" cx="613.66" cy="392.81" r="22.7"/>
+<circle class="key" cx="343.62" cy="392.81" r="22.7"/>
+<circle class="key" cx="253.61" cy="392.81" r="22.7"/>
+<circle class="key" cx="163.60" cy="392.81" r="22.7"/>
+<circle class="key" cx="73.59" cy="392.81" r="22.7"/>
+<circle cx="568.65" cy="140.69" r="5" fill="#294c36"/>
+<text class="label" x="572.65" y="131.69">J2</text>
+<circle cx="510.06" cy="387.52" r="5" fill="#294c36"/>
+<text class="label" x="514.06" y="378.52">U2</text>
+<circle cx="464.70" cy="387.52" r="5" fill="#294c36"/>
+<text class="label" x="468.70" y="378.52">U3</text>
+<circle cx="415.56" cy="387.52" r="5" fill="#294c36"/>
+<text class="label" x="419.56" y="378.52">U4</text>
+<circle cx="324.84" cy="387.52" r="5" fill="#294c36"/>
+<text class="label" x="328.84" y="378.52">Q1</text>
+<circle cx="956.10" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="960.10" y="360.84">R1</text>
+<circle cx="933.42" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="937.42" y="374.84">R2</text>
+<circle cx="910.74" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="914.74" y="360.84">R3</text>
+<circle cx="888.06" cy="356.52" r="2" fill="#688b57"/>
+<text class="label" x="892.06" y="366.52">R4</text>
+<circle cx="865.38" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="869.38" y="360.84">R5</text>
+<circle cx="657.48" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="661.48" y="374.84">R10</text>
+<circle cx="631.02" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="635.02" y="360.84">R11</text>
+<circle cx="604.56" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="608.56" y="374.84">R12</text>
+<circle cx="578.10" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="582.10" y="360.84">R13</text>
+<circle cx="551.64" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="555.64" y="374.84">R14</text>
+<circle cx="634.80" cy="356.52" r="2" fill="#688b57"/>
+<text class="label" x="638.80" y="352.52">R15</text>
+<circle cx="631.02" cy="387.52" r="2" fill="#688b57"/>
+<text class="label" x="635.02" y="397.52">R16</text>
+<circle cx="604.56" cy="387.52" r="2" fill="#688b57"/>
+<text class="label" x="608.56" y="383.52">R17</text>
+<circle cx="578.10" cy="387.52" r="2" fill="#688b57"/>
+<text class="label" x="582.10" y="397.52">R18</text>
+<circle cx="551.64" cy="387.52" r="2" fill="#688b57"/>
+<text class="label" x="555.64" y="383.52">R19</text>
+<circle cx="634.80" cy="417.76" r="2" fill="#688b57"/>
+<text class="label" x="638.80" y="427.76">R20</text>
+<circle cx="631.02" cy="410.20" r="2" fill="#688b57"/>
+<text class="label" x="635.02" y="406.20">R21</text>
+<circle cx="604.56" cy="410.20" r="2" fill="#688b57"/>
+<text class="label" x="608.56" y="420.20">R22</text>
+<circle cx="578.10" cy="410.20" r="2" fill="#688b57"/>
+<text class="label" x="582.10" y="406.20">R23</text>
+<circle cx="551.64" cy="410.20" r="2" fill="#688b57"/>
+<text class="label" x="555.64" y="420.20">R24</text>
+<circle cx="415.56" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="419.56" y="374.84">R30</text>
+<circle cx="415.56" cy="413.98" r="2" fill="#688b57"/>
+<text class="label" x="419.56" y="409.98">R31</text>
+<circle cx="230.34" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="234.34" y="374.84">R32</text>
+<circle cx="517.62" cy="355.39" r="2" fill="#688b57"/>
+<text class="label" x="521.62" y="351.39">R33</text>
+<circle cx="487.38" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="491.38" y="374.84">R34</text>
+<circle cx="351.30" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="355.30" y="360.84">R35</text>
+<circle cx="324.84" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="328.84" y="374.84">R36</text>
+<circle cx="400.44" cy="351.61" r="2" fill="#688b57"/>
+<text class="label" x="404.44" y="347.61">R37</text>
+<circle cx="502.50" cy="351.61" r="2" fill="#688b57"/>
+<text class="label" x="506.50" y="347.61">C1</text>
+<circle cx="487.38" cy="413.98" r="2" fill="#688b57"/>
+<text class="label" x="491.38" y="423.98">C2</text>
+<circle cx="389.10" cy="413.98" r="2" fill="#688b57"/>
+<text class="label" x="393.10" y="409.98">C3</text>
+<circle cx="434.46" cy="344.05" r="2" fill="#688b57"/>
+<text class="label" x="438.46" y="354.05">C4</text>
+<circle cx="377.76" cy="364.84" r="2" fill="#688b57"/>
+<text class="label" x="381.76" y="360.84">C5</text>
+<circle cx="287.04" cy="387.52" r="5" fill="#294c36"/>
+<text class="label" x="291.04" y="378.52">J1</text>
+<circle cx="434.46" cy="413.98" r="5" fill="#294c36"/>
+<text class="label" x="438.46" y="404.98">SW1</text>
+<circle cx="207.66" cy="413.98" r="5" fill="#294c36"/>
+<text class="label" x="211.66" y="404.98">SW2</text>
+<text x="24" y="458" font-size="12">J2 carrier interconnect | U2/U3 mux | U4 amplifier | R37 output isolation | J1 battery</text>
+<text x="24" y="480" font-size="11">No nano beneath spacebar. Native nano USB-C is exposed in the separate low-level case bay.</text>
+<text x="24" y="500" font-size="11">Coordinates originate at PCB top-left in TOP view. Use native KiCad for exact pad numbers and orientation.</text></svg>

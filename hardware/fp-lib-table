@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "UnextendedEC")(type "KiCad")(uri "${KIPRJMOD}/UnextendedEC.pretty")(options "")(descr "Wireless EC prototype")))

@@ -1,0 +1,32 @@
+name: Wireless EC firmware
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: zmkfirmware/zmk-build-arm@sha256:edb1c953438c6f720ddb79c3762f3972013b7fbbaf4fff3592fc869983e7afc5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Initialize pinned workspace
+        shell: bash
+        run: |
+          mkdir -p /tmp/unextended-work/config
+          cp firmware/west-lock.yml /tmp/unextended-work/config/west.yml
+          cd /tmp/unextended-work
+          west init -l config
+          west update
+      - name: Build keyboard and calibrator
+        run: python3 scripts/build_firmware.py --workspace /tmp/unextended-work
+      - name: Exercise driver logic and package firmware
+        run: |
+          python3 scripts/test_ec_driver.py --workspace /tmp/unextended-work
+          python3 scripts/package_firmware.py --workspace /tmp/unextended-work
+      - name: Check A2 partition, pin map and recorded nominal geometry
+        run: |
+          python3 scripts/test_direct_usb.py
+          python3 scripts/verify_website.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: unextended-wireless-ec
+          path: |
+            firmware/prebuilt/
+            reports/firmware-*.json

@@ -1,0 +1,16 @@
+{
+  "local_assets": [
+    "style.css",
+    "assets/hero.png",
+    "assets/direct-usb-cutaway.png",
+    "app.js"
+  ],
+  "bilingual_elements": 25,
+  "repository_links": [
+    "docs/direct-usb-A2.zh-CN.md",
+    "firmware"
+  ],
+  "static_checks_passed": true,
+  "browser_checks": "Language toggle and responsive iframe QA; see website-qa.json",
+  "hosting_audience": "owner-private"
+}

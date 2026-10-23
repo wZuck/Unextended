@@ -1,0 +1,55 @@
+{
+  "revision": "A2-direct-usb-development",
+  "case_reference_sha256": "f7bed63c03cc91d988f81d731c68076914bfb7105a3f6c92447e71c3e99e16f3",
+  "actual_case_usb_opening_center_mm": [
+    6.661338147750939e-15,
+    50.442,
+    6.954500000000004
+  ],
+  "native_module_usb_mouth_mm": [
+    0.0,
+    50.442,
+    6.9545
+  ],
+  "nominal_port_alignment_error_mm": 6.661338147750939e-15,
+  "internal_usb_extension": false,
+  "usb_daughterboard": false,
+  "module_on_sensing_pcb": false,
+  "carrier_pcb_mm": [
+    24,
+    52,
+    0.8
+  ],
+  "collisions": {
+    "carrier": {
+      "original_case_mm3": 406.0341099440071,
+      "modified_case_mm3": 0.0
+    },
+    "module_envelope": {
+      "original_case_mm3": 282.07463883878177,
+      "modified_case_mm3": 0.0
+    },
+    "ffc_connector": {
+      "original_case_mm3": 142.39999999999998,
+      "modified_case_mm3": 0.0
+    },
+    "adc_capacitor": {
+      "original_case_mm3": 1.0687499999999994,
+      "modified_case_mm3": 0.0
+    },
+    "external_plug_envelope": {
+      "original_case_mm3": 0.0,
+      "modified_case_mm3": 0.0
+    }
+  },
+  "rf_volume_case_overlap_mm3": 0.0,
+  "case_internal_pocket_modified": true,
+  "minimum_pocket_floor_z_mm": 2.8,
+  "mounting": "Four M1.4 plastic-thread-forming screws, head diameter <=2.5 mm, PCB holes 1.6 mm; pilot/retention must be prototyped",
+  "limitations": [
+    "Module envelope uses footprint geometry and nominal 3.2 mm total thickness, not a vendor STEP",
+    "Actual USB socket-to-PCB offset, plug tolerance, mount retention and board stack height require measurements",
+    "PC non-metallized case required; conductive version needs separate RF design",
+    "No physical EC noise, BLE, charging or latency test has been performed"
+  ]
+}

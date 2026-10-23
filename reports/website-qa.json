@@ -1,0 +1,12 @@
+{
+  "method": "Original A1 responsive checks used fixed-width same-origin iframes. A2 was rechecked in the native in-app browser at a 664 px panel width.",
+  "language_toggle": "A2 Chinese to English and back verified across navigation, body, engineering state and footer; solder-guide target changes between current A2 English and Chinese documents",
+  "a2_content_checked": "Native USB cutaway, revised internal case requirement, PC baseline and routed-but-physically-unvalidated status are visible",
+  "responsive_revision": "A1 layout; A2 retains layout/styles but updates content and image. 390/1440 checks below were not repeated for A2.",
+  "responsive": [
+    {"viewport_px":390,"document_width_px":390,"horizontal_overflow":false,"missing_images":0},
+    {"viewport_px":1440,"document_width_px":1440,"horizontal_overflow":false,"missing_images":0}
+  ],
+  "screenshots": ["renders/website-mobile.png", "renders/website-desktop.png", "renders/website-A2.png"],
+  "limitations": ["Not a physical mobile-device or assistive-technology test", "No full browser-matrix or performance benchmark"]
+}

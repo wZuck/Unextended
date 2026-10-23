@@ -1,0 +1,5 @@
+{
+  "tests": 7,
+  "passed": true,
+  "scope": "Structural net partition, pin map, RC placement, nominal geometry and SES parsing only; no physical electrical test"
+}

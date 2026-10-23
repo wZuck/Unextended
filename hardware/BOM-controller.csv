@@ -1,0 +1,4 @@
+Reference,Value,Footprint,Side,X_mm,Y_mm
+U1,nice!nano_v2,UnextendedEC:nice_nano,F,12,18
+J2,FH12-24S-0.5SH,Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal,F,12,48.5
+C6,1n_C0G,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,B,12,24

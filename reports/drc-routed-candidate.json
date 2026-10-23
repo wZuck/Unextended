@@ -1,0 +1,695 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-24T01:16:40",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "UnextendedEC-routed-candidate.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H26",
+                    "pos": {
+                        "x": 152.025,
+                        "y": 85.4
+                    },
+                    "uuid": "0b724dea-ecb1-4994-8024-f0be0bff36f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H5",
+                    "pos": {
+                        "x": 166.3125,
+                        "y": 47.3
+                    },
+                    "uuid": "14a17c78-05a0-45fd-822d-772705568b8a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H25",
+                    "pos": {
+                        "x": 73.44375,
+                        "y": 85.4
+                    },
+                    "uuid": "14a29594-0e6c-42ba-adcb-607dd0d5394e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H9",
+                    "pos": {
+                        "x": 204.4125,
+                        "y": 47.3
+                    },
+                    "uuid": "17640a89-be0a-4eb3-a98b-e6f2ae5fec9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H19",
+                    "pos": {
+                        "x": 90.1125,
+                        "y": 47.3
+                    },
+                    "uuid": "23a7dde4-01d8-478f-ac2e-6e27907696ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H6",
+                    "pos": {
+                        "x": 52.0125,
+                        "y": 47.3
+                    },
+                    "uuid": "2c912891-728c-4b7d-b5ad-a1e5f308f484"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H14",
+                    "pos": {
+                        "x": 218.7,
+                        "y": 28.25
+                    },
+                    "uuid": "2ceebf88-76fe-4f7a-bccd-1c8849339239"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H18",
+                    "pos": {
+                        "x": 194.8875,
+                        "y": 66.35
+                    },
+                    "uuid": "2e360b0e-7c41-44e1-911e-b49cdf33931f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H17",
+                    "pos": {
+                        "x": 80.5875,
+                        "y": 66.35
+                    },
+                    "uuid": "49233793-7645-4eef-9db8-101a3ea9ed7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H13",
+                    "pos": {
+                        "x": 66.3,
+                        "y": 28.25
+                    },
+                    "uuid": "4d03ac7e-8f7b-43c8-8973-e52a849d25a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H16",
+                    "pos": {
+                        "x": 180.6,
+                        "y": 28.25
+                    },
+                    "uuid": "4f5d5eef-a5d5-430d-9f47-12755d0a719c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H10",
+                    "pos": {
+                        "x": 242.5125,
+                        "y": 47.3
+                    },
+                    "uuid": "566d0e4a-837b-4675-8185-e28067486e3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H24",
+                    "pos": {
+                        "x": 25.818764,
+                        "y": 85.4
+                    },
+                    "uuid": "5e319a6e-0ad2-4dd0-8233-2cc8694fe324"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H3",
+                    "pos": {
+                        "x": 4.3875,
+                        "y": 28.25
+                    },
+                    "uuid": "6a712ac2-68b3-4a61-812c-ffc27937fdfb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'locallib'",
+            "items": [
+                {
+                    "description": "封装 REF**",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 47.3
+                    },
+                    "uuid": "7643abb2-6f32-47de-ac74-b951db88ad7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H11",
+                    "pos": {
+                        "x": 232.9875,
+                        "y": 66.35
+                    },
+                    "uuid": "79c77d50-7ca0-4e06-b8ae-ed57534b66f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H7",
+                    "pos": {
+                        "x": 237.619688,
+                        "y": 85.4
+                    },
+                    "uuid": "7c1ff2ac-3787-4e61-9f2f-53481ec1b3f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H4",
+                    "pos": {
+                        "x": 42.4875,
+                        "y": 66.35
+                    },
+                    "uuid": "88e3bb22-c37c-4a08-bc1a-d4108b1684e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H12",
+                    "pos": {
+                        "x": 156.7875,
+                        "y": 66.35
+                    },
+                    "uuid": "9ed08cac-20fa-40c2-808a-9661f60adac0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H15",
+                    "pos": {
+                        "x": 104.4,
+                        "y": 28.25
+                    },
+                    "uuid": "a0d204b6-b068-42f1-aa9e-3977b8a3075e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H8",
+                    "pos": {
+                        "x": 75.825,
+                        "y": 9.2
+                    },
+                    "uuid": "a60b8eb9-c21e-4dcc-9828-f341d240905d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H1",
+                    "pos": {
+                        "x": 37.725,
+                        "y": 9.2
+                    },
+                    "uuid": "a7d9e512-e704-4ff7-9a04-18e2427980c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H23",
+                    "pos": {
+                        "x": 247.275,
+                        "y": 9.2
+                    },
+                    "uuid": "a9955387-3fa5-4a9e-bbba-92d07bec65c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H22",
+                    "pos": {
+                        "x": 190.125,
+                        "y": 9.2
+                    },
+                    "uuid": "baba21ac-1c74-46e4-9155-2b0eabfee590"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H2",
+                    "pos": {
+                        "x": 152.025,
+                        "y": 9.2
+                    },
+                    "uuid": "cc6d35c0-6890-4665-be97-bee7ea63ba66"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H21",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 28.25
+                    },
+                    "uuid": "e24e5aa3-0408-4ef7-bab2-0aeb9cf97509"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'cipulot_parts'",
+            "items": [
+                {
+                    "description": "封装 H20",
+                    "pos": {
+                        "x": 113.925,
+                        "y": 9.2
+                    },
+                    "uuid": "ed10e9a1-d20e-4863-bdfa-34ec820926a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "R21 的 线段, 位于 B.Silkscreen",
+                    "pos": {
+                        "x": 126.227064,
+                        "y": 90.735
+                    },
+                    "uuid": "08b1345e-0274-494e-922d-9635f0b0a7cb"
+                },
+                {
+                    "description": "R20 的参考字段",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 90.35
+                    },
+                    "uuid": "ebc07a48-955d-46b4-b389-b3186ca66a77"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "R11 的参考字段",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 76.35
+                    },
+                    "uuid": "02715057-568c-4c75-a8f3-c2b22300dc93"
+                },
+                {
+                    "description": "R15 的 线段, 位于 B.Silkscreen",
+                    "pos": {
+                        "x": 125.227064,
+                        "y": 76.535
+                    },
+                    "uuid": "4bdc7143-4eda-4dd8-add4-28821009d895"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "SW2 的参考字段",
+                    "pos": {
+                        "x": 238.0,
+                        "y": 91.0
+                    },
+                    "uuid": "7b64bd13-2ba5-4669-b45b-51e4bb439d07"
+                },
+                {
+                    "description": "SW2 的PTH 焊盘 1 [RESET]",
+                    "pos": {
+                        "x": 239.27,
+                        "y": 91.0
+                    },
+                    "uuid": "23883922-8d18-4155-9071-952ccf7167ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "SW2 的参考字段",
+                    "pos": {
+                        "x": 238.0,
+                        "y": 91.0
+                    },
+                    "uuid": "7b64bd13-2ba5-4669-b45b-51e4bb439d07"
+                },
+                {
+                    "description": "SW2 的PTH 焊盘 2 [GND]",
+                    "pos": {
+                        "x": 236.73,
+                        "y": 91.0
+                    },
+                    "uuid": "20337abe-1d31-4f15-9b9a-438c393041f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "H26 的 多边形, 位于 B.Silkscreen",
+                    "pos": {
+                        "x": 153.167537,
+                        "y": 83.737296
+                    },
+                    "uuid": "c7a0642a-623a-4a6b-9201-b529f44ac89a"
+                },
+                {
+                    "description": "B.Cu 上 U2 的焊盘 13 [COL0]",
+                    "pos": {
+                        "x": 155.525,
+                        "y": 83.365
+                    },
+                    "uuid": "8a8469f5-26e9-4ee5-a58c-95e3c33004fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "H26 的 多边形, 位于 B.Silkscreen",
+                    "pos": {
+                        "x": 153.167537,
+                        "y": 83.737296
+                    },
+                    "uuid": "c7a0642a-623a-4a6b-9201-b529f44ac89a"
+                },
+                {
+                    "description": "B.Cu 上 U2 的焊盘 14 [COL1]",
+                    "pos": {
+                        "x": 155.525,
+                        "y": 82.095
+                    },
+                    "uuid": "e1ccfeeb-e9ae-4bdd-9a19-bd4cf248b686"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "H26 的 多边形, 位于 B.Silkscreen",
+                    "pos": {
+                        "x": 153.167537,
+                        "y": 83.737296
+                    },
+                    "uuid": "c7a0642a-623a-4a6b-9201-b529f44ac89a"
+                },
+                {
+                    "description": "B.Cu 上 U2 的焊盘 15 [COL2]",
+                    "pos": {
+                        "x": 155.525,
+                        "y": 80.825
+                    },
+                    "uuid": "1eb424d0-d5a3-42c1-b1a6-7c452d73179f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R20 的参考字段",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 90.35
+                    },
+                    "uuid": "ebc07a48-955d-46b4-b389-b3186ca66a77"
+                },
+                {
+                    "description": "B.Cu 上 R21 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 90.0
+                    },
+                    "uuid": "adcc1648-d220-4931-a9c5-6d68a2526afe"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "R11 的参考字段",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 76.35
+                    },
+                    "uuid": "02715057-568c-4c75-a8f3-c2b22300dc93"
+                },
+                {
+                    "description": "B.Cu 上 R15 的焊盘 1 [COL5]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 75.8
+                    },
+                    "uuid": "f91bb28a-13a0-4417-bd4b-f48b5e902337"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "SW1 的参考字段",
+                    "pos": {
+                        "x": 178.0,
+                        "y": 91.0
+                    },
+                    "uuid": "aa65d943-6702-48cf-a658-6aeb2dd97704"
+                },
+                {
+                    "description": "SW1 的PTH 焊盘 1 [BAT_RAW]",
+                    "pos": {
+                        "x": 179.27,
+                        "y": 91.0
+                    },
+                    "uuid": "be1fd13d-98c5-44e5-b8b5-db90ef49adb4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "SW1 的参考字段",
+                    "pos": {
+                        "x": 178.0,
+                        "y": 91.0
+                    },
+                    "uuid": "aa65d943-6702-48cf-a658-6aeb2dd97704"
+                },
+                {
+                    "description": "SW1 的PTH 焊盘 2 [BAT_SW]",
+                    "pos": {
+                        "x": 176.73,
+                        "y": 91.0
+                    },
+                    "uuid": "0cdb0c5b-7bd6-49d1-aedf-1a8667d208fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

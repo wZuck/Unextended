@@ -1,0 +1,8 @@
+# CAD reference/artifact formats retain tool/vendor bytes; review their source
+# generators and geometry reports rather than line-based STEP/DXF dumps.
+mechanical/**/*.step -diff
+mechanical/*.step -diff
+mechanical/*.dxf -diff
+hardware/reference/*.kicad_pcb -diff
+# A patch's blank context line is a required single-space unified-diff marker.
+firmware/patches/*.patch whitespace=-blank-at-eol,-blank-at-eof

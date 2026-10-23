@@ -1,0 +1,24 @@
+{
+  "target": "nice_nano@2.0.0/nrf52840/zmk",
+  "images": {
+    "unextended-ec.uf2": {
+      "sha256": "dd59f66b894b161d0c7fbd6948784de5acb7a7752d1cb7a135f735a79648e867",
+      "bytes": 462336,
+      "hardware_tested": false
+    },
+    "unextended-ec-calibrator.uf2": {
+      "sha256": "40827be4fb62ebd50bf42fa0fb03c9798988df8bdc89f47e3fbaea92170bfec0",
+      "bytes": 525824,
+      "hardware_tested": false
+    }
+  },
+  "sources": {
+    "firmware/config/boards/shields/unextended_ec/Kconfig.defconfig": "bd84236c52cb7528931456ed648547acabcb6cfadf1d8333de09162a927bc32d",
+    "firmware/config/boards/shields/unextended_ec/Kconfig.shield": "4276d1d8d496e617ea1f467e4bcd0c3ac780e3cfe6e418b10c4656a01c181d77",
+    "firmware/config/boards/shields/unextended_ec/unextended_ec.conf": "ee7310af507406f2b2c362cecddac90dfeb7a15bd5e459736d51fd4dacff54ed",
+    "firmware/config/boards/shields/unextended_ec/unextended_ec.keymap": "2be05e1aca8c346c486601c18d901c7b3e17c30f881ed8f618d8ccbecb57bd69",
+    "firmware/config/boards/shields/unextended_ec/unextended_ec.overlay": "de6ba048b882a3e6874f3ef733a2d71d3d1d1c882b76f5c8dfe87bfcd8d41731",
+    "firmware/config/west.yml": "a337b554815ef61e4261d357f3d0632eaeba5db06eb6c2db5b1111f38393bbe4",
+    "firmware/patches/manifest.json": "232459b77a8d5968458a1a6b414df5654cdb08559b996a0c8fcdfa6f72775069"
+  }
+}
